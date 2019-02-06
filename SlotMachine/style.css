@@ -1,0 +1,92 @@
+body {
+    background-image: url(background.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    margin: auto;
+    display: block;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    font-family: 'Lato';
+}
+
+.container {
+    padding: 3rem;
+    margin: 50px;
+}
+
+.machine {
+    display: flex;
+    background-color: white;
+    width: 550px;
+    height: 350px;
+    justify-content: space-around;
+    margin: auto;
+    border: 2px solid white;
+    border-radius: 4%;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+.slotOne {
+    padding: 1rem;
+    text-align: center;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    margin-top: 135px;
+}
+
+.number {
+    text-align: center;
+    font-size: 2.5em;
+    margin: auto;
+}
+
+.spinButton {
+    padding: .8rem 4rem;
+    background-color: #a3a3a3;
+    text-align: center;
+    padding: 10px;
+    width: 200px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin: auto;
+    display: block;
+    font-size: 2rem;
+    border-radius: 3px;
+    text-transform: uppercase;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    font-family: 'Lato';
+}
+
+.spinButton:hover {
+    background-color: #282828;
+}
+
+.slot-icon {
+    width: 50%;
+    height: auto;
+    display: block;
+    justify-content: space-around;
+    height: 100%;
+    margin: auto;
+}
+
+.reels {
+    display: flex;
+    background-color: white;
+    width: 550px;
+    height: 350px;
+    justify-content: space-around;
+    margin: auto;
+    border: 2px solid white;
+    border-radius: 4%;
+}
+
+
+
